@@ -54,7 +54,7 @@ nav label {
   position: relative;
   width: 100%;
   padding: .25em 0;
-  height: 2.5em;
+  height: 3.5em;
   cursor: pointer;
   &:before {
     content: "\f0c9";
@@ -89,7 +89,7 @@ input:checked ~ nav > label + .navigation {display: flex;}
   align-self: center;
   padding: .5em 0;
   color: $tertiary;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
