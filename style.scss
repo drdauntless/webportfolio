@@ -83,12 +83,13 @@ input:checked ~ nav > label + .navigation {display: flex;}
   display: none;
   flex-direction: column;
   width: 100%;
-  height: 5%;
+
 }
 .navigation a {
   display: block;
   align-self: center;
   padding: .5em 0;
+  height: 2.5em;
   color: $tertiary;
   font-size: 1.5em;
   font-weight: bold;
