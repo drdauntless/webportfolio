@@ -97,7 +97,7 @@ input:checked ~ nav > label + .navigation {display: flex;}
 }
 nav label,
 .navigation a {
-  border-bottom: 1% dashed $tertiary;
+  border-bottom: 1em dashed $tertiary;
   @include transition(all);
   &:hover {
     background: $tertiary;
