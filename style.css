@@ -48,8 +48,8 @@ nav {
   width: 5%;
   /*9.375em;/*150px*/
   min-height: 100%;
-  background: #e9967a;
-  color: #fff;
+  background: #F2D5F8;
+  color: #D6FFDF;
   overflow: hidden;
   transition: width 0.5s ease; }
 
@@ -111,15 +111,15 @@ input:checked ~ nav > label + .navigation {
 
 nav label,
 .navigation a {
-  border-bottom: 1px dashed #eda790;
+  border-bottom: 1px dashed #D6FFDF;
   transition: all 0.5s ease; }
   nav label:hover,
   .navigation a:hover {
-    background: #e58564;
+    background: #D6FFDF;
     text-shadow: none; }
   nav label:active,
   .navigation a:active {
-    background: #eda790; }
+    background: #D6FFDF; }
 
 /*Sections*/
 section {
@@ -145,8 +145,8 @@ section {
 .sec-home {
   float: left;
   position: relative;
-  background: #fff5ee;
-  color: #e9967a;
+  background: #6D8EA0;
+  color: #F2D5F8;
   opacity: 1; }
 
 .sec-home a {
@@ -163,8 +163,8 @@ section {
 
 /*About*/
 .sec-about {
-  background: #cd5c5c;
-  color: #fff; }
+  background: #6D8EA0;
+  color: #000500; }
 
 .sec-about .content {
   height: 55%;
@@ -172,7 +172,7 @@ section {
 
 /*Portfolio*/
 .sec-portfolio {
-  background: #ffeb3b;
+  background: #6D8EA0;
   overflow: hidden; }
 
 .sec-portfolio .col-big {
@@ -192,7 +192,7 @@ section {
 
 /*Contact*/
 .sec-contact {
-  background: #f5deb3; }
+  background: #6D8EA0; }
 
 .soc-media {
   display: flex;
