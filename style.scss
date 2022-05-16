@@ -1,7 +1,9 @@
 // Variables
+$primary: #6D8EA0;
+$secondary: #F2D5F8;
+
 $chocolate: #d2691e;
-$darkSalmon: #e9967a;
-$indianRed: #cd5c5c;
+
 $seaShell: #fff5ee;
 $yellow: #ffeb3b;
 $wheat: #f5deb3;
@@ -42,7 +44,7 @@ nav {
   float: right;
   width: 5%;/*9.375em;/*150px*/
   min-height: 100%;
-  background: $darkSalmon;
+  background: $secondary;
   color: #fff;
   overflow: hidden;
   @include transition(width);
@@ -127,8 +129,8 @@ section {
 .sec-home {
   float: left;
   position: relative;
-  background: $seaShell;
-  color: $darkSalmon;
+  background: $primary;
+  color: $secondary;
   opacity: 1;
 }
 .sec-home a {
@@ -145,7 +147,7 @@ section {
 }
 /*About*/
 .sec-about {
-  background: $indianRed;
+  background: $secondary;
   color: #fff;
 }
 .sec-about .content {
