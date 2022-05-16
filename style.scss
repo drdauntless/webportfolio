@@ -75,7 +75,7 @@ nav label {
 /*Hidding mechanism*/
 input {display: none;}
 input:checked ~ section {width: 85%;}
-input:checked ~ nav {width: 15%;}
+input:checked ~ nav {width: 35%;}
 input:checked ~ nav > label:before {content: "\f00d";}
 input:checked ~ nav > label + .navigation {display: flex;}
 /*close - "\f00d"*/
@@ -83,13 +83,11 @@ input:checked ~ nav > label + .navigation {display: flex;}
   display: none;
   flex-direction: column;
   width: 100%;
-
 }
 .navigation a {
   display: block;
   align-self: center;
   padding: .5em 0;
-  height: 2.5em;
   color: $tertiary;
   font-size: 1.5em;
   font-weight: bold;
