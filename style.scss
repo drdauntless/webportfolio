@@ -1,11 +1,11 @@
 // Variables
 $primary: #6D8EA0;
 $secondary: #F2D5F8;
-
+$tertiary: #D6FFDF;
+$quaternary: #F56476;
+$quinary: #000500;
 $chocolate: #d2691e;
-
 $seaShell: #fff5ee;
-$yellow: #ffeb3b;
 $wheat: #f5deb3;
 
 // Mixins
@@ -45,7 +45,7 @@ nav {
   width: 5%;/*9.375em;/*150px*/
   min-height: 100%;
   background: $secondary;
-  color: #fff;
+  color: $tertiary;
   overflow: hidden;
   @include transition(width);
 }
@@ -97,13 +97,13 @@ input:checked ~ nav > label + .navigation {display: flex;}
 }
 nav label,
 .navigation a {
-  border-bottom: 1px dashed #eda790;
+  border-bottom: 1px dashed $tertiary;
   @include transition(all);
   &:hover {
-    background: #e58564;
+    background: $tertiary;
     text-shadow: none;
   }
-  &:active {background: #eda790;}
+  &:active {background: $tertiary;}
 }
 /*Sections*/
 section {
@@ -147,15 +147,15 @@ section {
 }
 /*About*/
 .sec-about {
-  background: $secondary;
-  color: #fff;
+  background: $primary;
+  color: $quinary;
 }
 .sec-about .content {
   height: 55%;
   text-align: center;
 }
 /*Portfolio*/
-.sec-portfolio {background: $yellow;overflow: hidden;}
+.sec-portfolio {background: $primary;overflow: hidden;}
 .sec-portfolio .col-big {
   float: left;
   position: relative;
@@ -172,7 +172,7 @@ section {
 }
 /*Contact*/
 .sec-contact {
-  background: $wheat;
+  background: $primary;
 }
 .soc-media {
   display: flex;
