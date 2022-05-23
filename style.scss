@@ -97,11 +97,13 @@ input:checked ~ nav > label + .navigation {display: flex;}
 }
 nav label,
 .navigation a {
-  border-bottom: .25em dashed $tertiary;
+  border-bottom: .25em dashed $quaternary;
+  padding: .5em 0;
   @include transition(all);
   &:hover {
     background: $tertiary;
-    text-shadow: none;
+    text-shadow: $quinary;
+    border-bottom: .25 em dash $tertiary;
   }
   &:active {background: $tertiary;}
 }
